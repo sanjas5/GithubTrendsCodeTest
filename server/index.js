@@ -7,7 +7,7 @@ const app = express();
 const { Octokit } = require('octokit');
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: 'TOKEN'
 })
 
 // GET route for getting repositories
